@@ -1,0 +1,94 @@
+.detail-article{
+	width: 95%;
+	text-align: justify;
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.like-and-share-container{
+	width: 95%;
+	display: flex;
+	margin-top: 10px;
+}
+.like-icon{
+	padding: 5px;
+	color: gray;
+	cursor: pointer;
+}
+.like-icon-red{
+	padding: 5px;
+	color: red;
+	cursor: pointer;
+}
+.share-icon{
+	padding: 5px;
+	color: gray;
+	cursor: pointer;
+}
+.comments-container{
+	width: 100%;
+	background-color: #d6d6d6;
+	text-align: justify;
+	padding: 10px;
+	margin-top: 15px;
+}
+.writer-name{
+	margin-bottom: 5px;
+}
+.article-time-post{
+	margin-top: 15px;
+	float: right;
+}
+.comments-box{
+	display: flex;
+	flex-direction: column;
+}
+.commentez-larticle{
+	width: 100%;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Lexend Deca', sans-serif;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.message{
+	width: 100%;
+}
+.username{
+	width: 100%;
+	height: 40px;
+	border-radius: 50px;
+	border:solid 2px grey;
+	padding-left: 15px;
+}
+.username:focus{
+	outline: none;
+}
+.message-container{
+	display: flex;
+	width: 100%;
+	border-radius: 50px;
+	border: solid 2px grey;
+	padding-left: 15px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-top: 10px;
+}
+.message-container input {
+	width: 100%;
+	border: none;
+}
+.message-container input:focus {
+	outline: none;
+}
+.envoyer{
+	background-color: #f30c3d;
+	color: white;
+	border-radius: 50px;
+	padding: 10px;
+	cursor: pointer;
+}
+.envoyer:hover{
+	background-color: #50020f;
+}
